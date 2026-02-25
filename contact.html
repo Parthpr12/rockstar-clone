@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Rockstar Games</title>
+  <link rel="stylesheet" href="s3.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-logo">
+      <img src="images/d.png" alt="Logo" class="logo-img" onerror="this.style.display='none'" />
+      <span class="logo-text">ROCKSTAR</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html" class="active">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- FULL-SCREEN CONTACT HERO -->
+  <section class="contact-hero">
+    <div class="hero-bg" style="background-image: url('images/c.jpg');"></div>
+    <div class="hero-overlay"></div>
+    <div class="scanlines"></div>
+
+    <!-- Grid lines -->
+    <div class="grid-lines">
+      <div class="grid-v"></div>
+      <div class="grid-v"></div>
+      <div class="grid-v"></div>
+      <div class="grid-h"></div>
+    </div>
+
+    <div class="contact-wrapper">
+      <!-- Left: heading -->
+      <div class="contact-left">
+        <span class="section-label">REACH OUT</span>
+        <h1 class="contact-title">
+          CONTACT<br/>
+          <span class="accent">THE CREW</span>
+        </h1>
+        <p class="contact-desc">
+          Got something on your mind? Reach out to the Rockstar team.
+          Whether it's feedback, partnership inquiries, or just fan mail —
+          we're listening.
+        </p>
+
+        <div class="contact-info">
+          <div class="info-item">
+            <span class="info-icon">◈</span>
+            <div>
+              <span class="info-label">HEADQUARTERS</span>
+              <span class="info-value">New York City, USA</span>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">◈</span>
+            <div>
+              <span class="info-label">EMAIL</span>
+              <span class="info-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="e4878b8a90858790a4968b878f979085968385898197ca878b89">[email&#160;protected]</a></span>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="info-icon">◈</span>
+            <div>
+              <span class="info-label">SOCIAL</span>
+              <span class="info-value">@RockstarGames</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="form-wrapper">
+        <div class="form-header">
+          <h2 class="form-title">SEND A MESSAGE</h2>
+          <div class="form-title-line"></div>
+        </div>
+
+        <form class="contact-form" action="#" method="POST">
+          <div class="field-group">
+            <label for="name" class="field-label">FULL NAME</label>
+            <div class="input-wrap">
+              <span class="input-icon">▸</span>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="field-input"
+                placeholder="Enter your full name"
+                required
+              />
+              <div class="input-glow"></div>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="email" class="field-label">EMAIL ADDRESS</label>
+            <div class="input-wrap">
+              <span class="input-icon">▸</span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="field-input"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="input-glow"></div>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="subject" class="field-label">SUBJECT</label>
+            <div class="input-wrap">
+              <span class="input-icon">▸</span>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                class="field-input"
+                placeholder="What's this about?"
+              />
+              <div class="input-glow"></div>
+            </div>
+          </div>
+
+          <div class="field-group">
+            <label for="message" class="field-label">MESSAGE</label>
+            <div class="input-wrap textarea-wrap">
+              <textarea
+                id="message"
+                name="message"
+                class="field-input field-textarea"
+                placeholder="Tell us what's on your mind..."
+                rows="5"
+                required
+              ></textarea>
+              <div class="input-glow"></div>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span class="btn-text">SEND MESSAGE</span>
+            <span class="btn-arrow">→</span>
+            <span class="btn-pulse"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-text">© 2024 ROCKSTAR GAMES. ALL RIGHTS RESERVED.</p>
+    <div class="footer-links">
+      <a href="home.html"
